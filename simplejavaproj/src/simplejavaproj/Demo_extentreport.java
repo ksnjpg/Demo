@@ -28,7 +28,7 @@ public class Demo_extentreport {
 		Assert.assertTrue(title.contains("facebook"));
 		logger.log(LogStatus.PASS, "title verification done and passed");
 		
-		
+		 driver.close();
 			
 		}
 		
